@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Alex+Brush|Athiti|Bad+Script|Dancing+Script|Gruppo|Handlee|Julius+Sans+One|Kaushan+Script|Marck+Script|Megrim|Orbitron|Satisfy|Syncopate|Turret+Road|Vibes&display=swap');
+
+*,
+*::before,
+::after {
+ margin: 0;
+ padding: 0;
+ box-sizing: inherit;
+}
+
+:root {
+ font-family: 'Turret Road', cursive;
+ font-family: 'Vibes', cursive;
+ font-family: 'Dancing Script', cursive;
+ font-family: 'Satisfy', cursive;
+ font-family: 'Orbitron', sans-serif;
+ font-family: 'Handlee', cursive;
+ font-family: 'Marck Script', cursive;
+ font-family: 'Kaushan Script', cursive;
+ font-family: 'Bad Script', cursive;
+ font-family: 'Julius Sans One', sans-serif;
+ font-family: 'Alex Brush', cursive;
+ font-family: 'Syncopate', sans-serif;
+ font-family: 'Gruppo', cursive;
+ font-family: 'Athiti', sans-serif;
+ font-family: 'Megrim', cursive;
+
+
+ --sky-blue: #89D2DC;
+ --majorelle-blue: #6564DB;
+ --palatine-blue: #232ED1;
+ --maastricht-blue: #101D42;
+ --licorice: #0D1317;
+ --dark-green: #042A2B;
+ --pale-goldenrod: #D4E79E;
+ --dark-rasberry: #922D50;
+ --cadet-grey: #92B4A7;
+ --colombia-blue: #C1DBE3;
+ --warm-black: #02394A;
+ --cyan-proccess: #01BAEF;
+ --outer-space: #424B54;
+ --cardinal: #BF1A2F;
+ --silver-pink: #C1ABA6;
+ --dark-scarlet: #4C061D;
+ --licorice-purple: #1F0318;
+ --sweet-brown: #A53F2B;
+ --aero: #78C0E0;
+ --rich-black: #050505;
+ --classic-rose: #FFC4EB;
+ --mellow-apricot: #FBBA72;
+ --russian-violet: #372549;
+ --prune: #721121;
+ --sunset-orange: #EE6055;
+ --nickel: #6B6D76;
+ --black-coral: #5A5A66;
+ --cafe-noir: #4F3824;
+ --silver-pink: #C1ABA6;
+}
+
+html {
+ font-size: 10px;
+ font-family: 'Dancing Script', cursive;
+ box-sizing: border-box;
+}
