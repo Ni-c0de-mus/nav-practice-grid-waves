@@ -87,78 +87,19 @@ body {
     padding: 0;
 }
 
-/* CSS Waves Background */
-
-body {
-    animation: colorchange 50s;
-    /* animation-name followed by duration in seconds*/
-    /* you could also use milliseconds (ms) or something like 2.5s */
-    -webkit-animation: colorchange 10s;
-    /* Chrome and Safari */
-}
-
-@keyframes colorchange {
-    0% {
-        background: red;
-    }
-
-    25% {
-        background: yellow;
-    }
-
-    50% {
-        background: blue;
-    }
-
-    75% {
-        background: green;
-    }
-
-    100% {
-        background: red;
-    }
-}
-
-@-webkit-keyframes colorchange
-
-/* Safari and Chrome - necessary duplicate */
-    {
-    0% {
-        background: red;
-    }
-
-    25% {
-        background: yellow;
-    }
-
-    50% {
-        background: blue;
-    }
-
-    75% {
-        background: green;
-    }
-
-    100% {
-        background: red;
-    }
-}
-
-
-
-/* .wave {
+.wave {
  position: absolute;
  background:#EE6055;
  height: 100%;
  width: 100%;
  z-index: -10;
- animation: fade 3000ms infinte alternate;
- -webkit-animation: fade 3000s ease infinite alternate;
--moz-animation: fade 3000s ease infinite alternate;
--o-animation: fade 3000s ease infinite alternate;
+ animation: colorchange 3000ms infinte alternate;
+ -webkit-animation: colorchange 3000s ease infinite alternate;
+-moz-animation: colorchange 3000s ease infinite alternate;
+-o-animation: colorchange 3000s ease infinite alternate;
 }
 
-/* .wave-1{animation-delay: 500ms};
+.wave-1{animation-delay: 500ms};
 .wave-2{animation-delay: 1000ms};
 .wave-3{animation-delay: 1500ms};
 .wave-4{animation-delay: 2000ms};
@@ -167,4 +108,4 @@ body {
 .wave-7{animation-delay: 3500ms};
 .wave-8{animation-delay: 4000ms};
 .wave-9{animation-delay: 4500ms};
-.wave-10{animation-delay: 5000ms}; */
+.wave-10{animation-delay: 5000ms};

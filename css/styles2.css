@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css?family=Alex+Brush|Athiti|Bad+Script|Dancing+Script|Gruppo|Handlee|Julius+Sans+One|Kaushan+Script|Marck+Script|Megrim|Orbitron|Satisfy|Syncopate|Turret+Road|Vibes&display=swap');
+
+*,
+*::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+:root {
+    --turret-road: 'Turret Road', cursive;
+    --vibes: 'Vibes', cursive;
+    --dancing-script: 'Dancing Script', cursive;
+    --satisfy: 'Satisfy', cursive;
+    --orbitron: 'Orbitron', sans-serif;
+    --handlee: 'Handlee', cursive;
+    --marck-script: 'Marck Script', cursive;
+    --kaushan-script: 'Kaushan Script', cursive;
+    --bac-script: 'Bad Script', cursive;
+    --julius-sans: 'Julius Sans One', sans-serif;
+    --alex-brush: 'Alex Brush', cursive;
+    --syncopate: 'Syncopate', sans-serif;
+    --gruppo: 'Gruppo', cursive;
+    --athiti: 'Athiti', sans-serif;
+    --megrim: 'Megrim', cursive;
+
+
+    --sky-blue: #89D2DC;
+    --majorelle-blue: #6564DB;
+    --palatine-blue: #232ED1;
+    --maastricht-blue: #101D42;
+    --licorice: #0D1317;
+    --dark-green: #042A2B;
+    --pale-goldenrod: #D4E79E;
+    --dark-rasberry: #922D50;
+    --cadet-grey: #92B4A7;
+    --colombia-blue: #C1DBE3;
+    --warm-black: #02394A;
+    --cyan-proccess: #01BAEF;
+    --outer-space: #424B54;
+    --cardinal: #BF1A2F;
+    --silver-pink: #C1ABA6;
+    --dark-scarlet: #4C061D;
+    --licorice-purple: #1F0318;
+    --sweet-brown: #A53F2B;
+    --aero: #78C0E0;
+    --rich-black: #050505;
+    --classic-rose: #FFC4EB;
+    --mellow-apricot: #FBBA72;
+    --russian-violet: #372549;
+    --prune: #721121;
+    --sunset-orange: #EE6055;
+    --nickel: #6B6D76;
+    --black-coral: #5A5A66;
+    --cafe-noir: #4F3824;
+    --silver-pink: #C1ABA6;
+    --gold-grad: #cb8e00;
+}
+
+html {
+    font-size: 10px;
+    font-family: var(--julius-sans);
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+
+section {
+    padding: 5rem 0;
+}
+
+body {
+    font-size: 1.6rem;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Header */
+
+header {
+    width: 100%;
+    height: 5rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.container {
+    width: 100%;
+    max-width: 98rem;
+    padding: 0 auto;
+    margin: 0 auto;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--rich-black);
+}
+
+.nav__brand {
+    width: 2rem;
+}
+
+.menu__icons {
+    font-size: 3.5rem;
+    color: var(--rich-black);
+    cursor: pointer;
+}
+
+.close {
+    color: var(--majorelle-blue);
+}
+
+.nav__list {
+    width: 25rem;
+    height: 100vh;
+    background: var(--rich-black);
+    position: fixed;
+    top: 0;
+    right: -24rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 1500;
+}
+.nav__list:active {
+    right: 0;
+}
+
+.close {
+    position: absolute;
+    bottom: 1.5rem;
+    right: 2.5rem;
+}
+
+.nav__item {
+    margin: 1.5rem 0;
+}
+
+.nav__link {
+    font-size: 1.6rem;
+    color: var(--gold-grad);
+    text-transform: uppercase;
+}
+
+
+/* Background Gradient */
+
+
+body {
+    animation: colorchange infinite 10s;
+    /* animation-name followed by duration in seconds*/
+    /* you could also use milliseconds (ms) or something like 2.5s */
+    -webkit-animation: colorchange infinite 10s;
+    /* Chrome and Safari */
+    position: absolute;
+    z-index: -100;
+}
+
+
+@keyframes colorchange {
+    0% {
+        background: #a67c00;
+    }
+    7.7% {
+        background: #bf9b30;
+    }
+    15.4% {
+        background: #cb8e00;
+    }
+
+    23.1% {
+        background: #d99a00;
+    }
+
+    30.8% {
+        background: #e7a605;
+    }
+
+    38.5% {
+        background: #f5b21e;
+    }
+
+    46.2% {
+        background: #ffbe2e;
+    }
+    53.9% {
+        background: #f5b21e;
+    }
+    61.6% {
+        background: #e7a605;
+    }
+    69.3% {
+        background: #d99a00;
+    }
+    77% {
+        background: #cb8e00;
+    }
+    84.7% {
+        background: #bf9b30;
+    }
+    92.4% {
+        background: #a67c00;
+    }
+    100% {
+        background: #a67c00;
+    }
+
+
+}
+
+@-webkit-keyframes colorchange
+
+/* Safari and Chrome - necessary duplicate */
+    {
+        0% {
+            background: #a67c00;
+        }
+        7.7% {
+            background: #bf9b30;
+        }
+        15.4% {
+            background: #cb8e00;
+        }
+    
+        23.1% {
+            background: #d99a00;
+        }
+    
+        30.8% {
+            background: #e7a605;
+        }
+    
+        38.5% {
+            background: #f5b21e;
+        }
+    
+        46.2% {
+            background: #ffbe2e;
+        }
+        53.9% {
+            background: #f5b21e;
+        }
+        61.6% {
+            background: #e7a605;
+        }
+        69.3% {
+            background: #d99a00;
+        }
+        77% {
+            background: #cb8e00;
+        }
+        84.7% {
+            background: #bf9b30;
+        }
+        92.4% {
+            background: #a67c00;
+        }
+        100% {
+            background: #a67c00;
+        }
+}
